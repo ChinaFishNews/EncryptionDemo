@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		737CE7F220E777DC007E648E /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 737CE7EF20E777DB007E648E /* RSACryptor.m */; };
+		737CE7F320E777DC007E648E /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 737CE7F120E777DC007E648E /* EncryptionTools.m */; };
 		73F9ADAD20DFE5B500AA0A87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9ADAC20DFE5B500AA0A87 /* AppDelegate.m */; };
 		73F9ADB020DFE5B500AA0A87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9ADAF20DFE5B500AA0A87 /* ViewController.m */; };
 		73F9ADB320DFE5B500AA0A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F9ADB120DFE5B500AA0A87 /* Main.storyboard */; };
 		73F9ADB520DFE5B600AA0A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F9ADB420DFE5B600AA0A87 /* Assets.xcassets */; };
 		73F9ADB820DFE5B600AA0A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F9ADB620DFE5B600AA0A87 /* LaunchScreen.storyboard */; };
 		73F9ADBB20DFE5B600AA0A87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9ADBA20DFE5B600AA0A87 /* main.m */; };
+		73F9ADC320DFE62100AA0A87 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9ADC120DFE62100AA0A87 /* NSString+Hash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		737CE7EE20E777DB007E648E /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = SOURCE_ROOT; };
+		737CE7EF20E777DB007E648E /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = SOURCE_ROOT; };
+		737CE7F020E777DB007E648E /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = SOURCE_ROOT; };
+		737CE7F120E777DC007E648E /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = SOURCE_ROOT; };
 		73F9ADA820DFE5B500AA0A87 /* EncryptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F9ADAB20DFE5B500AA0A87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73F9ADAC20DFE5B500AA0A87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,8 @@
 		73F9ADB720DFE5B600AA0A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73F9ADB920DFE5B600AA0A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73F9ADBA20DFE5B600AA0A87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73F9ADC120DFE62100AA0A87 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = SOURCE_ROOT; };
+		73F9ADC220DFE62100AA0A87 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				73F9ADAC20DFE5B500AA0A87 /* AppDelegate.m */,
 				73F9ADAE20DFE5B500AA0A87 /* ViewController.h */,
 				73F9ADAF20DFE5B500AA0A87 /* ViewController.m */,
+				73F9ADC220DFE62100AA0A87 /* NSString+Hash.h */,
+				73F9ADC120DFE62100AA0A87 /* NSString+Hash.m */,
+				737CE7F020E777DB007E648E /* EncryptionTools.h */,
+				737CE7F120E777DC007E648E /* EncryptionTools.m */,
+				737CE7EE20E777DB007E648E /* RSACryptor.h */,
+				737CE7EF20E777DB007E648E /* RSACryptor.m */,
 				73F9ADB120DFE5B500AA0A87 /* Main.storyboard */,
 				73F9ADB420DFE5B600AA0A87 /* Assets.xcassets */,
 				73F9ADB620DFE5B600AA0A87 /* LaunchScreen.storyboard */,
@@ -141,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737CE7F320E777DC007E648E /* EncryptionTools.m in Sources */,
 				73F9ADB020DFE5B500AA0A87 /* ViewController.m in Sources */,
+				737CE7F220E777DC007E648E /* RSACryptor.m in Sources */,
+				73F9ADC320DFE62100AA0A87 /* NSString+Hash.m in Sources */,
 				73F9ADBB20DFE5B600AA0A87 /* main.m in Sources */,
 				73F9ADAD20DFE5B500AA0A87 /* AppDelegate.m in Sources */,
 			);
@@ -283,14 +301,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EncryptionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lvmm.EncryptionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,14 +320,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EncryptionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lvmm.EncryptionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
