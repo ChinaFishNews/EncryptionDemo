@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		737CE7F220E777DC007E648E /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 737CE7EF20E777DB007E648E /* RSACryptor.m */; };
 		737CE7F320E777DC007E648E /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 737CE7F120E777DC007E648E /* EncryptionTools.m */; };
+		737CE7F520E8A636007E648E /* 密码学.xmind in Resources */ = {isa = PBXBuildFile; fileRef = 737CE7F420E8A636007E648E /* 密码学.xmind */; };
 		73F9ADAD20DFE5B500AA0A87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9ADAC20DFE5B500AA0A87 /* AppDelegate.m */; };
 		73F9ADB020DFE5B500AA0A87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9ADAF20DFE5B500AA0A87 /* ViewController.m */; };
 		73F9ADB320DFE5B500AA0A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F9ADB120DFE5B500AA0A87 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		737CE7EF20E777DB007E648E /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = SOURCE_ROOT; };
 		737CE7F020E777DB007E648E /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = SOURCE_ROOT; };
 		737CE7F120E777DC007E648E /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = SOURCE_ROOT; };
+		737CE7F420E8A636007E648E /* 密码学.xmind */ = {isa = PBXFileReference; lastKnownFileType = file; path = "密码学.xmind"; sourceTree = SOURCE_ROOT; };
 		73F9ADA820DFE5B500AA0A87 /* EncryptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F9ADAB20DFE5B500AA0A87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73F9ADAC20DFE5B500AA0A87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				737CE7F120E777DC007E648E /* EncryptionTools.m */,
 				737CE7EE20E777DB007E648E /* RSACryptor.h */,
 				737CE7EF20E777DB007E648E /* RSACryptor.m */,
+				737CE7F420E8A636007E648E /* 密码学.xmind */,
 				73F9ADB120DFE5B500AA0A87 /* Main.storyboard */,
 				73F9ADB420DFE5B600AA0A87 /* Assets.xcassets */,
 				73F9ADB620DFE5B600AA0A87 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737CE7F520E8A636007E648E /* 密码学.xmind in Resources */,
 				73F9ADB820DFE5B600AA0A87 /* LaunchScreen.storyboard in Resources */,
 				73F9ADB520DFE5B600AA0A87 /* Assets.xcassets in Resources */,
 				73F9ADB320DFE5B500AA0A87 /* Main.storyboard in Resources */,
